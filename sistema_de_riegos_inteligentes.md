@@ -15,7 +15,7 @@
 
 **Año**: 2025
 
-CAPÍTULO I: INTRODUCCIÓN
+## CAPÍTULO I: INTRODUCCIÓN
 Caso de estudio
 
 El presente documento aborda el diseño y desarrollo de un sistema de gestión para un sistema de riego inteligente en parcelas agrícolas. Este sistema tiene como finalidad monitorear la humedad del suelo y controlar de manera automática el riego de los cultivos, garantizando un uso eficiente del agua y una mejor productividad agrícola.
@@ -58,7 +58,7 @@ Generar reportes de humedad, consumo de agua y rendimiento agrícola para la tom
 
 Optimizar el uso del recurso hídrico y contribuir a la sostenibilidad del sector agrícola.
 
-CAPÍTULO II: MARCO CONCEPTUAL O REFERENCIAL
+## CAPÍTULO II: MARCO CONCEPTUAL O REFERENCIAL
 
 TEMA 1: Manejo de permisos a nivel de usuarios de base de datos
 Acceder a la siguiente carpeta para ver el desarrollo del tema Manejo de permisos a nivel de usuarios de base de datos.
@@ -72,7 +72,7 @@ Acceder a la siguiente carpeta para ver el desarrollo del tema Optimización de 
 TEMA 4: Índices columnares en SQL Server
 Acceder a la siguiente carpeta para ver el desarrollo del tema Índices columnares en SQL Server.
 
-CAPÍTULO III: METODOLOGÍA SEGUIDA
+## CAPÍTULO III: METODOLOGÍA SEGUIDA
 a) Cómo se realizó el Trabajo Práctico
 
 Primero se definió el caso de estudio: un sistema de riego inteligente aplicado a la agricultura. La idea fue seleccionada por su importancia actual en la gestión sostenible de recursos naturales.
@@ -103,21 +103,8 @@ Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris t
 
 
 
-### Diagrama conceptual (opcional)
-Ejemplo usando Live Editor https://mermaid.js.org/ (ejemplo opcional)
-```mermaid
-erDiagram
-CUSTOMER  }|..|{  DELIVERY-ADDRESS  : has
-CUSTOMER  ||--o{  ORDER  : places
-CUSTOMER  ||--o{  INVOICE  : "liable for"
-DELIVERY-ADDRESS  ||--o{  ORDER  : receives
-INVOICE  ||--|{  ORDER  : covers
-ORDER  ||--|{  ORDER-ITEM  : includes
-PRODUCT-CATEGORY  ||--|{  PRODUCT  : contains
-PRODUCT  ||--o{  ORDER-ITEM  : "ordered in"
-```
 ### Diagrama relacional
-![diagrama_relacional](https://github.com/dovillegas/basesdatos_proyecto_estudio/blob/main/doc/image_relational.png)
+![diagrama_relacional](https://github.com/Matte4k/BDI_Proyecto_Estudio/blob/main/doc/MER_sistema_de_riego.png)
 
 ### Diccionario de datos
 
